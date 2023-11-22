@@ -29,7 +29,7 @@ var keys = {
 	handler : function(event, status) {
 		switch(event.keyCode) {
 			case 57392://CTRL on MAC
-			case 17://CTRL
+			case 16://shift
 				keys.accelerate = status;
 				break;
 			case 40://DOWN ARROW
